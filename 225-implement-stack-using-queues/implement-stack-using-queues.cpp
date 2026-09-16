@@ -8,7 +8,6 @@ public:
     }
     
     void push(int x) {
-        //if(q1.)
         while(!q1.empty()){
             q2.push(q1.front());
             q1.pop();
